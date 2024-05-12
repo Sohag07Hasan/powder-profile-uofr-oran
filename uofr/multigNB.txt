@@ -1,0 +1,36 @@
+
+-----------------------------------------------------------------------------------------------------------------
+gNB 1
+sudo /local/setup/srslte-ric/build/srsenb/src/srsenb \
+    --enb.n_prb=15 --enb.name=enb1 --enb.enb_id=0x19B --rf.device_name=zmq \
+    --rf.device_args="fail_on_disconnect=true,id=enb,base_srate=23.04e6,tx_port=tcp://*:2000,rx_port=tcp://localhost:2001" \
+    --ric.agent.remote_ipv4_addr=${E2TERM_SCTP} \
+    --ric.agent.local_ipv4_addr=10.10.1.1 --ric.agent.local_port=52525 \
+    --log.all_level=warn --ric.agent.log_level=debug --log.filename='/tmp/logs/gnb1' \
+    --slicer.enable=1 --slicer.workshare=0 \
+	--pcap.enable=true --pcap.filename='/tmp/enb1.pcap' --pcap.s1ap_enable=true --pcap.s1ap_filename='/tmp/enb_1_s1ap.pcap'
+	
+sudo ip netns add ue1
+sudo /local/setup/srslte-ric/build/srsue/src/srsue \
+    --rf.device_name=zmq --rf.device_args="tx_port=tcp://*:2001,rx_port=tcp://localhost:2000,id=ue,base_srate=23.04e6" \
+    --usim.algo=xor --usim.imsi=001010123456789 --usim.k=00112233445566778899aabbccddeeff --usim.imei=353490069873310 \
+    --log.all_level=warn --log.filename='/tmp/logs/ue1' --gw.netns=ue1 \
+	--pcap.enable=true --pcap.filename='/tmp/ue1.pcap' --pcap.nas_enable=true --pcap.nas_filename='/tmp/ue_1_nas.pcap'
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+gNB2
+sudo /local/setup/srslte-ric/build/srsenb/src/srsenb \
+    --enb.n_prb=15 --enb.name=enb3 --enb.enb_id=0x19D --rf.device_name=zmq \
+    --rf.device_args="fail_on_disconnect=true,id=enb,base_srate=23.04e6,tx_port=tcp://*:2010,rx_port=tcp://localhost:2011" \
+    --ric.agent.remote_ipv4_addr=${E2TERM_SCTP} \
+    --ric.agent.local_ipv4_addr=10.10.2.1 --ric.agent.local_port=52526 \
+    --log.all_level=warn --ric.agent.log_level=debug --log.filename=stdout \
+    --slicer.enable=1 --slicer.workshare=0
+
+sudo ip netns add ue2
+sudo /local/setup/srslte-ric/build/srsue/src/srsue \
+    --rf.device_name=zmq --rf.device_args="tx_port=tcp://*:2011,rx_port=tcp://localhost:2010,id=ue,base_srate=23.04e6" \
+    --usim.algo=xor --usim.imsi=001010123456780 --usim.k=00112233445566778899aabbccddeeff --usim.imei=353490069873311 \
+    --log.all_level=warn --log.filename=stdout --gw.netns=ue2
+------------------------------------------------------------------------------------------------------------------------

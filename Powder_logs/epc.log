@@ -1,0 +1,1026 @@
+19:08:24.682107 
+
+
+19:08:24.682124 Built in RelWithDebInfo mode using commit ff8d1cc97 on branch oran-ric.
+
+19:08:24.682127 
+---  Software Radio Systems EPC log ---
+
+
+19:08:24.695468 [EPC ] [I] Using binary /local/setup/srslte-ric/build/srsepc/src/srsepc with arguments: --spgw.sgi_if_addr=192.168.0.1 
+19:08:24.695520 [HSS ] [I] Opened DB file: /users/sohag07/.config/srslte/user_db.csv
+19:08:24.695558 [HSS ] [D] Added user from DB, IMSI: 001010123456780
+19:08:24.695575 [HSS ] [D] User Key : 
+             0000: 00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 
+19:08:24.695580 [HSS ] [D] User OPc : 
+             0000: 63 bf a5 0e e6 52 33 65 ff 14 c1 f4 5f 88 73 7d 
+19:08:24.695583 [HSS ] [D] AMF : 
+             0000: 80 00 
+19:08:24.695586 [HSS ] [D] SQN : 
+             0000: 00 00 00 00 15 90 
+19:08:24.695588 [HSS ] [D] Default Bearer QCI: 7
+19:08:24.695598 [HSS ] [D] Added user from DB, IMSI: 001010123456781
+19:08:24.695603 [HSS ] [D] User Key : 
+             0000: 00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 
+19:08:24.695605 [HSS ] [D] User OPc : 
+             0000: 63 bf a5 0e e6 52 33 65 ff 14 c1 f4 5f 88 73 7d 
+19:08:24.695608 [HSS ] [D] AMF : 
+             0000: 80 02 
+19:08:24.695611 [HSS ] [D] SQN : 
+             0000: 00 00 00 00 14 88 
+19:08:24.695612 [HSS ] [D] Default Bearer QCI: 7
+19:08:24.695620 [HSS ] [D] Added user from DB, IMSI: 001010123456782
+19:08:24.695628 [HSS ] [D] User Key : 
+             0000: 00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 
+19:08:24.695650 [HSS ] [D] User OPc : 
+             0000: 63 bf a5 0e e6 52 33 65 ff 14 c1 f4 5f 88 73 7d 
+19:08:24.695654 [HSS ] [D] AMF : 
+             0000: 80 03 
+19:08:24.695658 [HSS ] [D] SQN : 
+             0000: 00 00 00 00 14 46 
+19:08:24.695662 [HSS ] [D] Default Bearer QCI: 7
+19:08:24.695671 [HSS ] [D] Added user from DB, IMSI: 001010123456783
+19:08:24.695676 [HSS ] [D] User Key : 
+             0000: 00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 
+19:08:24.695680 [HSS ] [D] User OPc : 
+             0000: 63 bf a5 0e e6 52 33 65 ff 14 c1 f4 5f 88 73 7d 
+19:08:24.695683 [HSS ] [D] AMF : 
+             0000: 80 04 
+19:08:24.695686 [HSS ] [D] SQN : 
+             0000: 00 00 00 00 14 67 
+19:08:24.695688 [HSS ] [D] Default Bearer QCI: 7
+19:08:24.695696 [HSS ] [D] Added user from DB, IMSI: 001010123456789
+19:08:24.695701 [HSS ] [D] User Key : 
+             0000: 00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 
+19:08:24.695704 [HSS ] [D] User OPc : 
+             0000: 63 bf a5 0e e6 52 33 65 ff 14 c1 f4 5f 88 73 7d 
+19:08:24.695707 [HSS ] [D] AMF : 
+             0000: 90 01 
+19:08:24.695718 [HSS ] [D] SQN : 
+             0000: 00 00 00 00 16 56 
+19:08:24.695719 [HSS ] [D] Default Bearer QCI: 7
+19:08:24.695731 [HSS ] [I] HSS Initialized. DB file /users/sohag07/.config/srslte/user_db.csv, MCC: 61441, MNC: 65281
+19:08:24.734420 [S1AP] [I] S1-MME Initializing
+19:08:24.734488 [S1AP] [I] S1AP Initialized
+19:08:24.734491 [MME GTPC] [I] Initializing MME S11 interface.
+19:08:24.734504 [MME GTPC] [I] MME S11 Initialized
+19:08:24.734524 [MME GTPC] [I] MME GTP-C Initialized
+19:08:24.734531 [S1AP] [I] MME Initialized. MCC: 0xf001, MNC: 0xff01
+19:08:24.734566 [GTPU] [I] TUN file descriptor = 6
+19:08:24.735476 [GTPU] [I] Initialized SGi interface
+19:08:24.735501 [GTPU] [I] S1-U socket = 7
+19:08:24.735508 [GTPU] [I] S1-U IP = 127.0.1.100, Port = 2152 
+19:08:24.735515 [GTPU] [I] Initialized S1-U interface
+19:08:24.735517 [GTPU] [I] SPGW GTP-U Initialized.
+19:08:24.735535 [SPGW GTPC] [I] Initializing SPGW S11 interface.
+19:08:24.735555 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.2 is added to pool
+19:08:24.735560 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.3 is added to pool
+19:08:24.735564 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.4 is added to pool
+19:08:24.735568 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.5 is added to pool
+19:08:24.735571 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.6 is added to pool
+19:08:24.735576 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.7 is added to pool
+19:08:24.735580 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.8 is added to pool
+19:08:24.735584 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.9 is added to pool
+19:08:24.735587 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.10 is added to pool
+19:08:24.735590 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.11 is added to pool
+19:08:24.735593 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.12 is added to pool
+19:08:24.735596 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.13 is added to pool
+19:08:24.735598 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.14 is added to pool
+19:08:24.735601 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.15 is added to pool
+19:08:24.735610 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.16 is added to pool
+19:08:24.735614 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.17 is added to pool
+19:08:24.735616 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.18 is added to pool
+19:08:24.735619 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.19 is added to pool
+19:08:24.735622 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.20 is added to pool
+19:08:24.735625 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.21 is added to pool
+19:08:24.735628 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.22 is added to pool
+19:08:24.735631 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.23 is added to pool
+19:08:24.735635 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.24 is added to pool
+19:08:24.735638 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.25 is added to pool
+19:08:24.735642 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.26 is added to pool
+19:08:24.735645 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.27 is added to pool
+19:08:24.735649 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.28 is added to pool
+19:08:24.735652 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.29 is added to pool
+19:08:24.735656 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.30 is added to pool
+19:08:24.735661 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.31 is added to pool
+19:08:24.735664 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.32 is added to pool
+19:08:24.735667 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.33 is added to pool
+19:08:24.735670 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.34 is added to pool
+19:08:24.735674 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.35 is added to pool
+19:08:24.735677 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.36 is added to pool
+19:08:24.735684 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.37 is added to pool
+19:08:24.735688 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.38 is added to pool
+19:08:24.735691 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.39 is added to pool
+19:08:24.735699 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.40 is added to pool
+19:08:24.735702 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.41 is added to pool
+19:08:24.735705 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.42 is added to pool
+19:08:24.735712 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.43 is added to pool
+19:08:24.735716 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.44 is added to pool
+19:08:24.735720 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.45 is added to pool
+19:08:24.735724 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.46 is added to pool
+19:08:24.735729 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.47 is added to pool
+19:08:24.735732 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.48 is added to pool
+19:08:24.735735 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.49 is added to pool
+19:08:24.735739 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.50 is added to pool
+19:08:24.735743 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.51 is added to pool
+19:08:24.735747 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.52 is added to pool
+19:08:24.735751 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.53 is added to pool
+19:08:24.735755 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.54 is added to pool
+19:08:24.735758 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.55 is added to pool
+19:08:24.735761 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.56 is added to pool
+19:08:24.735764 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.57 is added to pool
+19:08:24.735767 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.58 is added to pool
+19:08:24.735771 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.59 is added to pool
+19:08:24.735774 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.60 is added to pool
+19:08:24.735778 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.61 is added to pool
+19:08:24.735783 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.62 is added to pool
+19:08:24.735787 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.63 is added to pool
+19:08:24.735791 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.64 is added to pool
+19:08:24.735854 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.65 is added to pool
+19:08:24.735865 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.66 is added to pool
+19:08:24.735876 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.67 is added to pool
+19:08:24.735886 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.68 is added to pool
+19:08:24.735896 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.69 is added to pool
+19:08:24.735906 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.70 is added to pool
+19:08:24.735915 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.71 is added to pool
+19:08:24.735925 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.72 is added to pool
+19:08:24.735934 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.73 is added to pool
+19:08:24.735943 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.74 is added to pool
+19:08:24.735954 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.75 is added to pool
+19:08:24.735964 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.76 is added to pool
+19:08:24.735973 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.77 is added to pool
+19:08:24.735985 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.78 is added to pool
+19:08:24.735995 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.79 is added to pool
+19:08:24.736006 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.80 is added to pool
+19:08:24.736016 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.81 is added to pool
+19:08:24.736024 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.82 is added to pool
+19:08:24.736031 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.83 is added to pool
+19:08:24.736040 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.84 is added to pool
+19:08:24.736050 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.85 is added to pool
+19:08:24.736078 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.86 is added to pool
+19:08:24.736083 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.87 is added to pool
+19:08:24.736089 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.88 is added to pool
+19:08:24.736093 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.89 is added to pool
+19:08:24.736099 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.90 is added to pool
+19:08:24.736109 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.91 is added to pool
+19:08:24.736118 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.92 is added to pool
+19:08:24.736123 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.93 is added to pool
+19:08:24.736127 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.94 is added to pool
+19:08:24.736132 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.95 is added to pool
+19:08:24.736136 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.96 is added to pool
+19:08:24.736140 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.97 is added to pool
+19:08:24.736153 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.98 is added to pool
+19:08:24.736167 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.99 is added to pool
+19:08:24.736170 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.100 is added to pool
+19:08:24.736174 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.101 is added to pool
+19:08:24.736177 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.102 is added to pool
+19:08:24.736182 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.103 is added to pool
+19:08:24.736186 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.104 is added to pool
+19:08:24.736202 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.105 is added to pool
+19:08:24.736212 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.106 is added to pool
+19:08:24.736220 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.107 is added to pool
+19:08:24.736226 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.108 is added to pool
+19:08:24.736233 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.109 is added to pool
+19:08:24.736242 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.110 is added to pool
+19:08:24.736252 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.111 is added to pool
+19:08:24.736274 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.112 is added to pool
+19:08:24.736278 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.113 is added to pool
+19:08:24.736283 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.114 is added to pool
+19:08:24.736286 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.115 is added to pool
+19:08:24.736289 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.116 is added to pool
+19:08:24.736293 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.117 is added to pool
+19:08:24.736298 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.118 is added to pool
+19:08:24.736303 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.119 is added to pool
+19:08:24.736307 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.120 is added to pool
+19:08:24.736314 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.121 is added to pool
+19:08:24.736317 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.122 is added to pool
+19:08:24.736324 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.123 is added to pool
+19:08:24.736327 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.124 is added to pool
+19:08:24.736330 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.125 is added to pool
+19:08:24.736335 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.126 is added to pool
+19:08:24.736340 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.127 is added to pool
+19:08:24.736344 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.128 is added to pool
+19:08:24.736359 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.129 is added to pool
+19:08:24.736363 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.130 is added to pool
+19:08:24.736371 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.131 is added to pool
+19:08:24.736374 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.132 is added to pool
+19:08:24.736379 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.133 is added to pool
+19:08:24.736384 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.134 is added to pool
+19:08:24.736387 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.135 is added to pool
+19:08:24.736392 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.136 is added to pool
+19:08:24.736396 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.137 is added to pool
+19:08:24.736399 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.138 is added to pool
+19:08:24.736404 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.139 is added to pool
+19:08:24.736410 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.140 is added to pool
+19:08:24.736416 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.141 is added to pool
+19:08:24.736421 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.142 is added to pool
+19:08:24.736425 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.143 is added to pool
+19:08:24.736430 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.144 is added to pool
+19:08:24.736433 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.145 is added to pool
+19:08:24.736436 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.146 is added to pool
+19:08:24.736440 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.147 is added to pool
+19:08:24.736443 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.148 is added to pool
+19:08:24.736446 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.149 is added to pool
+19:08:24.736448 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.150 is added to pool
+19:08:24.736452 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.151 is added to pool
+19:08:24.736456 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.152 is added to pool
+19:08:24.736462 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.153 is added to pool
+19:08:24.736468 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.154 is added to pool
+19:08:24.736475 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.155 is added to pool
+19:08:24.736483 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.156 is added to pool
+19:08:24.736485 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.157 is added to pool
+19:08:24.736489 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.158 is added to pool
+19:08:24.736495 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.159 is added to pool
+19:08:24.736499 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.160 is added to pool
+19:08:24.736506 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.161 is added to pool
+19:08:24.736511 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.162 is added to pool
+19:08:24.736516 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.163 is added to pool
+19:08:24.736520 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.164 is added to pool
+19:08:24.736523 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.165 is added to pool
+19:08:24.736526 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.166 is added to pool
+19:08:24.736529 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.167 is added to pool
+19:08:24.736533 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.168 is added to pool
+19:08:24.736539 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.169 is added to pool
+19:08:24.736556 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.170 is added to pool
+19:08:24.736559 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.171 is added to pool
+19:08:24.736564 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.172 is added to pool
+19:08:24.736567 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.173 is added to pool
+19:08:24.736570 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.174 is added to pool
+19:08:24.736573 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.175 is added to pool
+19:08:24.736578 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.176 is added to pool
+19:08:24.736581 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.177 is added to pool
+19:08:24.736586 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.178 is added to pool
+19:08:24.736594 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.179 is added to pool
+19:08:24.736623 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.180 is added to pool
+19:08:24.736627 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.181 is added to pool
+19:08:24.736632 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.182 is added to pool
+19:08:24.736635 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.183 is added to pool
+19:08:24.736650 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.184 is added to pool
+19:08:24.736654 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.185 is added to pool
+19:08:24.736661 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.186 is added to pool
+19:08:24.736666 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.187 is added to pool
+19:08:24.736673 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.188 is added to pool
+19:08:24.736678 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.189 is added to pool
+19:08:24.736681 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.190 is added to pool
+19:08:24.736684 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.191 is added to pool
+19:08:24.736687 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.192 is added to pool
+19:08:24.736690 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.193 is added to pool
+19:08:24.736693 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.194 is added to pool
+19:08:24.736703 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.195 is added to pool
+19:08:24.736706 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.196 is added to pool
+19:08:24.736709 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.197 is added to pool
+19:08:24.736713 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.198 is added to pool
+19:08:24.736722 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.199 is added to pool
+19:08:24.736726 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.200 is added to pool
+19:08:24.736732 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.201 is added to pool
+19:08:24.736736 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.202 is added to pool
+19:08:24.736740 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.203 is added to pool
+19:08:24.736743 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.204 is added to pool
+19:08:24.736748 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.205 is added to pool
+19:08:24.736751 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.206 is added to pool
+19:08:24.736754 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.207 is added to pool
+19:08:24.736758 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.208 is added to pool
+19:08:24.736763 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.209 is added to pool
+19:08:24.736770 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.210 is added to pool
+19:08:24.736775 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.211 is added to pool
+19:08:24.736780 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.212 is added to pool
+19:08:24.736788 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.213 is added to pool
+19:08:24.736792 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.214 is added to pool
+19:08:24.736798 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.215 is added to pool
+19:08:24.736801 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.216 is added to pool
+19:08:24.736807 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.217 is added to pool
+19:08:24.736811 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.218 is added to pool
+19:08:24.736815 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.219 is added to pool
+19:08:24.736823 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.220 is added to pool
+19:08:24.736826 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.221 is added to pool
+19:08:24.736830 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.222 is added to pool
+19:08:24.736838 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.223 is added to pool
+19:08:24.736862 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.224 is added to pool
+19:08:24.736866 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.225 is added to pool
+19:08:24.736870 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.226 is added to pool
+19:08:24.736875 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.227 is added to pool
+19:08:24.736880 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.228 is added to pool
+19:08:24.736885 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.229 is added to pool
+19:08:24.736893 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.230 is added to pool
+19:08:24.736896 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.231 is added to pool
+19:08:24.736900 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.232 is added to pool
+19:08:24.736905 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.233 is added to pool
+19:08:24.736910 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.234 is added to pool
+19:08:24.736916 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.235 is added to pool
+19:08:24.736920 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.236 is added to pool
+19:08:24.736924 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.237 is added to pool
+19:08:24.736927 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.238 is added to pool
+19:08:24.736929 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.239 is added to pool
+19:08:24.736932 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.240 is added to pool
+19:08:24.736935 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.241 is added to pool
+19:08:24.736939 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.242 is added to pool
+19:08:24.736943 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.243 is added to pool
+19:08:24.736946 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.244 is added to pool
+19:08:24.736950 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.245 is added to pool
+19:08:24.736962 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.246 is added to pool
+19:08:24.736970 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.247 is added to pool
+19:08:24.736974 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.248 is added to pool
+19:08:24.736979 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.249 is added to pool
+19:08:24.736985 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.250 is added to pool
+19:08:24.736990 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.251 is added to pool
+19:08:24.736993 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.252 is added to pool
+19:08:24.736997 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.253 is added to pool
+19:08:24.737001 [SPGW GTPC] [D] SPGW: init_ue_ip ue ip addr 192.168.0.254 is added to pool
+19:08:24.737004 [SPGW GTPC] [I] SPGW S11 Initialized.
+19:08:24.737019 [SPGW] [I] SP-GW Initialized.
+19:08:24.737179 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:08:24.737908 [SPGW] [D] Message received at SPGW: SGi Message
+19:08:24.737929 [GTPU] [D] Received SGi PDU. Bytes 48
+19:08:24.737934 [GTPU] [W] IPv6 not supported yet.
+19:08:29.182328 [SPGW] [D] Message received at SPGW: SGi Message
+19:08:29.182353 [GTPU] [D] Received SGi PDU. Bytes 48
+19:08:29.182361 [GTPU] [W] IPv6 not supported yet.
+19:08:37.630312 [SPGW] [D] Message received at SPGW: SGi Message
+19:08:37.630335 [GTPU] [D] Received SGi PDU. Bytes 48
+19:08:37.630337 [GTPU] [W] IPv6 not supported yet.
+19:08:55.038301 [SPGW] [D] Message received at SPGW: SGi Message
+19:08:55.038322 [GTPU] [D] Received SGi PDU. Bytes 48
+19:08:55.038326 [GTPU] [W] IPv6 not supported yet.
+19:09:29.854268 [SPGW] [D] Message received at SPGW: SGi Message
+19:09:29.854288 [GTPU] [D] Received SGi PDU. Bytes 48
+19:09:29.854291 [GTPU] [W] IPv6 not supported yet.
+19:10:10.318392 [S1AP] [I] Received S1AP msg. Size: 45
+19:10:10.318504 [S1AP] [I] Received Initiating PDU
+19:10:10.318510 [S1AP] [I] Received S1 Setup Request.
+19:10:10.318553 [S1AP] [I] Received S1 Setup Request.
+19:10:10.318563 [S1AP] [D] eNB SCTP association Id: 142
+19:10:10.318569 [S1AP] [I] S1 Setup Request - eNB Name: enb1, eNB id: 0x19b
+19:10:10.318573 [S1AP] [I] S1 Setup Request - MCC:001, MNC:01, PLMN: 61712
+19:10:10.318578 [S1AP] [I] S1 Setup Request - TAC 7, B-PLMN 0xf110
+19:10:10.318593 [S1AP] [I] Adding new eNB context. eNB ID 411
+19:10:10.318606 [S1AP] [D] Sending S1 Setup Response
+19:10:10.318621 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:10:10.318705 [S1AP] [D] S1 Setup Response sent
+19:10:10.318716 [S1AP] [I] Sending S1 Setup Response
+19:10:10.318720 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:10:35.390295 [SPGW] [D] Message received at SPGW: SGi Message
+19:10:35.390321 [GTPU] [D] Received SGi PDU. Bytes 48
+19:10:35.390325 [GTPU] [W] IPv6 not supported yet.
+19:10:56.471268 [S1AP] [I] Received S1AP msg. Size: 66
+19:10:56.471322 [S1AP] [I] Received Initiating PDU
+19:10:56.471327 [S1AP] [I] Received Initial UE Message.
+19:10:56.471371 [S1AP] [I] Initial UE message: LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST
+19:10:56.471378 [S1AP] [I] Received Initial UE message -- Attach Request
+19:10:56.471436 [NAS ] [I] Attach request -- IMSI: 001010123456789
+19:10:56.471441 [NAS ] [I] Attach request -- eNB-UE S1AP Id: 1
+19:10:56.471450 [NAS ] [I] Attach request -- Attach type: 1
+19:10:56.471457 [NAS ] [I] Attach Request -- UE Network Capabilities EEA: 11110000
+19:10:56.471464 [NAS ] [I] Attach Request -- UE Network Capabilities EIA: 01110000
+19:10:56.471467 [NAS ] [I] Attach Request -- MS Network Capabilities Present: false
+19:10:56.471473 [NAS ] [I] PDN Connectivity Request -- EPS Bearer Identity requested: 0
+19:10:56.471478 [NAS ] [I] PDN Connectivity Request -- Procedure Transaction Id: 1
+19:10:56.471484 [NAS ] [I] PDN Connectivity Request -- ESM Information Transfer requested: false
+19:10:56.471495 [NAS ] [D] NAS Context Initialized. MCC: 0xf001, MNC 0xff01
+19:10:56.471501 [HSS ] [D] Generating AUTH info answer
+19:10:56.471520 [HSS ] [D] User Key : 
+             0000: 00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff 
+19:10:56.471527 [HSS ] [D] User OPc : 
+             0000: 63 bf a5 0e e6 52 33 65 ff 14 c1 f4 5f 88 73 7d 
+19:10:56.471530 [HSS ] [D] User Rand : 
+             0000: be 14 73 85 e7 71 4c 9c 95 4d ed 4a 24 65 57 23 
+19:10:56.471536 [HSS ] [D] User XRES: 
+             0000: be 05 51 b6 a3 24 2a eb 
+19:10:56.471538 [HSS ] [D] User CK: 
+             0000: 05 51 b6 a3 24 2a eb 1d d4 47 f1 e8 b8 b9 dc be 
+19:10:56.471542 [HSS ] [D] User IK: 
+             0000: 51 b6 a3 24 2a eb 1d d4 47 f1 e8 b8 b9 dc be 05 
+19:10:56.471545 [HSS ] [D] User AK: 
+             0000: b6 a3 24 2a eb 1d 
+19:10:56.471548 [HSS ] [D] User SQN : 
+             0000: 00 00 00 00 16 56 
+19:10:56.471551 [HSS ] [D] User MAC : 
+             0000: be 05 51 b6 b5 72 ba ea 
+19:10:56.471597 [HSS ] [D] User MCC : f001  MNC : ff01 
+19:10:56.471605 [HSS ] [D] User k_asme : 
+             0000: f6 f0 6b 42 14 97 61 a5 4e 09 5d 58 60 ef 13 f3 
+             0010: 33 98 0a 98 c3 12 51 44 63 d6 33 0d 30 0b 86 94 
+19:10:56.471610 [HSS ] [D] User AUTN: 
+             0000: b6 a3 24 2a fd 4b 90 01 
+19:10:56.471612 [HSS ] [D] Incremented SQN  -- IMSI: 001010123456789
+19:10:56.471707 [HSS ] [D] SQN: 
+             0000: 00 00 00 00 16 77 
+19:10:56.471717 [S1AP] [D] Saved UE context corresponding to IMSI 001010123456789
+19:10:56.471723 [S1AP] [D] Saved UE context corresponding to MME UE S1AP Id 1
+19:10:56.471732 [S1AP] [D] Added UE with MME-UE S1AP Id 1 to eNB with association 142
+19:10:56.471741 [NAS ] [I] Packing Authentication Request
+19:10:56.471773 [S1AP] [D] Sending message to eNB with SCTP association 142. MME UE S1AP ID 1, eNB UE S1AP ID 1
+19:10:56.471794 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:10:56.471890 [NAS ] [I] Downlink NAS: Sending Authentication Request
+19:10:56.471907 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:10:56.499085 [S1AP] [I] Received S1AP msg. Size: 57
+19:10:56.499117 [S1AP] [I] Received Initiating PDU
+19:10:56.499120 [S1AP] [I] Received Uplink NAS Transport Message.
+19:10:56.499147 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 1
+19:10:56.499153 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_PLAIN_NAS, mac_vaild: no, msg_encrypted: no
+19:10:56.499156 [S1AP] [I] UL NAS: Received Authentication Response
+19:10:56.499183 [NAS ] [I] Authentication Response -- IMSI 001010123456789
+19:10:56.499198 [NAS ] [I] Authentication response -- RES
+             0000: be 05 51 b6 a3 24 2a eb 
+19:10:56.499205 [NAS ] [I] Authentication response -- XRES
+             0000: be 05 51 b6 a3 24 2a eb 
+19:10:56.499211 [NAS ] [I] UE Authentication Accepted.
+19:10:56.499213 [NAS ] [I] Packing Security Mode Command
+19:10:56.499230 [NAS ] [I] Key NAS Encryption (k_nas_enc)
+             0000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+             0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+19:10:56.499235 [NAS ] [I] Key NAS Integrity (k_nas_int)
+             0000: ed 3e 19 76 b0 07 17 26 65 bc 00 99 d2 f5 09 d9 
+             0010: bc 31 4f 5e f3 fc 20 71 5a ca 2f db 37 dd bc e7 
+19:10:56.499241 [NAS ] [I] Generating KeNB with UL NAS COUNT: 0
+19:10:56.499254 [NAS ] [I] Key eNodeB (k_enb)
+             0000: 19 a0 f5 b8 23 12 ea 19 bf 2e b0 6e b9 2e 8e cb 
+             0010: b3 93 82 87 89 e1 1d 93 e5 86 95 43 a4 0f cc 05 
+19:10:56.499325 [NAS ] [D] Generating MAC with inputs: Algorithm 128-EIA1, DL COUNT 0
+19:10:56.499335 [S1AP] [D] Sending message to eNB with SCTP association 142. MME UE S1AP ID 1, eNB UE S1AP ID 1
+19:10:56.499341 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:10:56.499419 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:10:56.512905 [S1AP] [I] Received S1AP msg. Size: 54
+19:10:56.512928 [S1AP] [I] Received Initiating PDU
+19:10:56.512944 [S1AP] [I] Received Uplink NAS Transport Message.
+19:10:56.512952 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 1
+19:10:56.513023 [NAS ] [I] Integrity check ok. Local: count=0, Received: count=0
+19:10:56.513039 [S1AP] [D] Encrypted
+             0000: 47 91 06 41 c2 00 07 5e 
+19:10:56.513052 [S1AP] [D] Decrypted
+             0000: 47 91 06 41 c2 00 07 5e 
+19:10:56.513075 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_INTEGRITY_AND_CIPHERED_WITH_NEW_EPS_SECURITY_CONTEXT, mac_vaild: yes, msg_encrypted: yes
+19:10:56.513080 [S1AP] [I] UL NAS: Received Security Mode Complete
+19:10:56.513154 [NAS ] [I] Security Mode Command Complete -- IMSI: 001010123456789
+19:10:56.513167 [HSS ] [I] Found User 001010123456789
+19:10:56.513172 [NAS ] [D] Getting subscription information -- QCI 7
+19:10:56.513177 [MME GTPC] [I] Sending Create Session Request.
+19:10:56.513182 [MME GTPC] [I] Next MME control TEID: 2
+19:10:56.513188 [MME GTPC] [I] Allocated MME control TEID: 1
+19:10:56.513197 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:10:56.513220 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:10:56.513226 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:10:56.513283 [SPGW] [D] Message received at SPGW: S11 Message
+19:10:56.513396 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_CREATE_SESSION_REQUEST
+19:10:56.513405 [SPGW GTPC] [I] SPGW Received Create Session Request
+19:10:56.513408 [SPGW GTPC] [I] Creating new GTP-C context
+19:10:56.513426 [SPGW GTPC] [I] SPGW: get_new_ue_ipv4 pool ip addr 192.168.0.2
+19:10:56.513447 [SPGW GTPC] [I] Sending Create Session Response
+19:10:56.513453 [SPGW GTPC] [D] SPGW Sending S11 PDU! N_Bytes: 1360
+19:10:56.513467 [SPGW GTPC] [D] SPGW S11 Sent 1360 Bytes.
+19:10:56.513491 [MME GTPC] [D] Received S11 message
+19:10:56.513500 [MME GTPC] [D] MME Received GTP-C PDU. Message type GTPC_MSG_TYPE_CREATE_SESSION_RESPONSE
+19:10:56.513505 [MME GTPC] [I] Received Create Session Response
+19:10:56.513519 [MME GTPC] [I] MME GTPC Ctrl TEID 1, IMSI 1010123456789
+19:10:56.513529 [MME GTPC] [I] Create Session Response -- SPGW control TEID 1
+19:10:56.513534 [MME GTPC] [I] Create Session Response -- SPGW S1-U Address: 127.0.1.100
+19:10:56.513544 [S1AP] [I] Preparing to send Initial Context Setup request
+19:10:56.513572 [S1AP] [I] Initial Context Setup Request -- Key eNB (k_enb)
+             0000: 19 a0 f5 b8 23 12 ea 19 bf 2e b0 6e b9 2e 8e cb 
+             0010: b3 93 82 87 89 e1 1d 93 e5 86 95 43 a4 0f cc 05 
+19:10:56.513581 [S1AP] [I] Adding attach accept to Initial Context Setup Request
+19:10:56.513584 [NAS ] [I] Packing Attach Accept
+19:10:56.513586 [NAS ] [I] Attach Accept -- MCC 0xf001, MNC 0xff01
+19:10:56.513590 [S1AP] [D] Allocated M-TMSI 0x2922ff3f to IMSI 001010123456789,
+19:10:56.513593 [NAS ] [D] Allocated GUTI: MCC 1, MNC 1, MME Group Id 1, MME Code 0x1a, M-TMSI 0x2922ff3f
+19:10:56.513695 [NAS ] [D] Generating MAC with inputs: Algorithm 128-EIA1, DL COUNT 1
+19:10:56.513701 [NAS ] [I] Packed Attach Accept
+19:10:56.513704 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:10:56.513794 [S1AP] [I] Initial Context -- S1-U TEID 0x1. IP 127.0.1.100 
+19:10:56.513800 [S1AP] [I] Initial Context Setup Request -- eNB UE S1AP Id 1, MME UE S1AP Id 1
+19:10:56.513804 [S1AP] [I] Initial Context Setup Request -- E-RAB id 5
+19:10:56.513807 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:10:56.513810 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:10:56.513812 [S1AP] [I] Initial Context Setup Request -- QCI 7
+19:10:56.513818 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:10:56.540807 [S1AP] [I] Received S1AP msg. Size: 38
+19:10:56.540840 [S1AP] [I] Received Succeseful Outcome PDU
+19:10:56.540843 [S1AP] [I] Received Initial Context Setup Response.
+19:10:56.540864 [S1AP] [I] E-RAB Context Setup. E-RAB id 5
+19:10:56.540869 [S1AP] [I] E-RAB Context -- eNB TEID 0x1, eNB Address 127.0.1.1
+19:10:56.540880 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:10:56.742400 [S1AP] [I] Received S1AP msg. Size: 59
+19:10:56.742430 [S1AP] [I] Received Initiating PDU
+19:10:56.742432 [S1AP] [I] Received Uplink NAS Transport Message.
+19:10:56.742438 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 1
+19:10:56.742530 [NAS ] [I] Integrity check ok. Local: count=1, Received: count=1
+19:10:56.742557 [S1AP] [D] Encrypted
+             0000: 27 c4 80 cd a4 01 07 43 00 03 52 00 c2 
+19:10:56.742566 [S1AP] [D] Decrypted
+             0000: 27 c4 80 cd a4 01 07 43 00 03 52 00 c2 
+19:10:56.742572 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_INTEGRITY_AND_CIPHERED, mac_vaild: yes, msg_encrypted: yes
+19:10:56.742573 [S1AP] [I] UL NAS: Received Attach Complete
+19:10:56.742610 [MME GTPC] [I] Sending GTP-C Modify bearer request
+19:10:56.742615 [MME GTPC] [I] GTP-C Modify bearer request -- S-GW Control TEID 1
+19:10:56.742619 [MME GTPC] [I] GTP-C Modify bearer request -- S1-U TEID 0x1, IP 127.0.1.1
+19:10:56.742621 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:10:56.742645 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:10:56.742650 [NAS ] [I] Packing EMM Information
+19:10:56.742717 [SPGW] [D] Message received at SPGW: S11 Message
+19:10:56.742758 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+19:10:56.742765 [SPGW GTPC] [I] Received Modified Bearer Request
+19:10:56.742768 [SPGW GTPC] [I] Setting Up GTP-U tunnel. Tunnel info: 
+19:10:56.742777 [SPGW GTPC] [I] IMSI: 001010123456789, UE IP: 192.168.0.2 
+19:10:56.742781 [SPGW GTPC] [I] S-GW Rx Ctrl TEID 0x1, MME Rx Ctrl TEID 0x1
+19:10:56.742789 [SPGW GTPC] [I] S-GW Rx Ctrl IP (NA), MME Rx Ctrl IP (NA)
+19:10:56.742797 [NAS ] [D] Generating MAC with inputs: Algorithm 128-EIA1, DL COUNT 2
+19:10:56.742801 [NAS ] [I] Packed UE EMM information
+19:10:56.742804 [S1AP] [D] Sending message to eNB with SCTP association 142. MME UE S1AP ID 1, eNB UE S1AP ID 1
+19:10:56.742810 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:10:56.742795 [SPGW GTPC] [I] S-GW Rx User TEID 0x1, S-GW Rx User IP 127.0.1.100
+19:10:56.742826 [SPGW GTPC] [I] eNB Rx User TEID 0x1, eNB Rx User IP 127.0.1.1
+19:10:56.742831 [GTPU] [I] Modifying GTP-U Tunnel.
+19:10:56.742839 [GTPU] [I] UE IP 192.168.0.2
+19:10:56.742845 [GTPU] [I] Downlink eNB addr 127.0.1.1, U-TEID 0x1
+19:10:56.742852 [GTPU] [I] Uplink C-TEID: 0x1
+19:10:56.742857 [SPGW GTPC] [D] SPGW Sending S11 PDU! N_Bytes: 1360
+19:10:56.742874 [SPGW GTPC] [D] SPGW S11 Sent 1360 Bytes.
+19:10:56.742890 [NAS ] [I] Sending EMM Information
+19:10:56.742897 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:10:56.742920 [MME GTPC] [D] Received S11 message
+19:10:56.742926 [MME GTPC] [D] MME Received GTP-C PDU. Message type GTPC_MSG_TYPE_MODIFY_BEARER_RESPONSE
+19:10:56.742928 [MME GTPC] [D] Activating EPS bearer with id 5
+19:10:56.742933 [S1AP] [I] Activated EPS Bearer: Bearer id 5
+19:10:56.742934 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:11:07.471404 [SPGW] [D] Message received at SPGW: S1-U Message
+19:11:07.471425 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:11:07.471431 [GTPU] [D] TEID 0x1. Bytes=84
+19:11:07.471552 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:11:07.471565 [SPGW] [D] Message received at SPGW: SGi Message
+19:11:07.471576 [GTPU] [D] Received SGi PDU. Bytes 84
+19:11:07.471585 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:11:07.471594 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:11:07.471599 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:11:07.471602 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:11:07.471607 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x1.
+19:11:07.471663 [GTPU] [D] Deallocating packet after sending S1-U message
+19:11:08.475490 [SPGW] [D] Message received at SPGW: S1-U Message
+19:11:08.475505 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:11:08.475509 [GTPU] [D] TEID 0x1. Bytes=84
+19:11:08.475569 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:11:08.475578 [SPGW] [D] Message received at SPGW: SGi Message
+19:11:08.475596 [GTPU] [D] Received SGi PDU. Bytes 84
+19:11:08.475599 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:11:08.475605 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:11:08.475616 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:11:08.475619 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:11:08.475622 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x1.
+19:11:08.475656 [GTPU] [D] Deallocating packet after sending S1-U message
+19:11:24.762836 [S1AP] [I] Received S1AP msg. Size: 25
+19:11:24.762872 [S1AP] [I] Received Initiating PDU
+19:11:24.762877 [S1AP] [I] Received UE Context Release Request Message.
+19:11:24.762883 [S1AP] [I] Received UE Context Release Request. MME-UE S1AP Id: 1
+19:11:24.762938 [S1AP] [I] There are active E-RABs, send release access bearers request
+19:11:24.762945 [MME GTPC] [I] Sending GTP-C Release Access Bearers Request
+19:11:24.762948 [MME GTPC] [I] GTP-C Release Access Berarers Request -- S-GW Control TEID 1
+19:11:24.762951 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:11:24.762974 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:11:24.762987 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:11:24.763036 [SPGW] [D] Message received at SPGW: S11 Message
+19:11:24.763083 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+19:11:24.763107 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:11:24.763288 [S1AP] [I] Received S1AP msg. Size: 19
+19:11:24.763317 [S1AP] [I] Received Succeseful Outcome PDU
+19:11:24.763324 [S1AP] [I] Received UE Context Release Complete
+19:11:24.763331 [S1AP] [I] Received UE Context Release Complete. MME-UE S1AP Id: 1
+19:11:24.763350 [S1AP] [I] Released UE ECM Context.
+19:11:24.763357 [S1AP] [I] UE Context Release Completed.
+19:11:24.763365 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:12:42.366283 [SPGW] [D] Message received at SPGW: SGi Message
+19:12:42.366305 [GTPU] [D] Received SGi PDU. Bytes 48
+19:12:42.366310 [GTPU] [W] IPv6 not supported yet.
+19:13:12.458758 [S1AP] [I] Received S1AP msg. Size: 45
+19:13:12.458808 [S1AP] [I] Received Initiating PDU
+19:13:12.458822 [S1AP] [I] Received S1 Setup Request.
+19:13:12.458873 [S1AP] [I] Received S1 Setup Request.
+19:13:12.458882 [S1AP] [D] eNB SCTP association Id: 146
+19:13:12.458894 [S1AP] [I] S1 Setup Request - eNB Name: enb2, eNB id: 0x19c
+19:13:12.458902 [S1AP] [I] S1 Setup Request - MCC:001, MNC:01, PLMN: 61712
+19:13:12.458910 [S1AP] [I] S1 Setup Request - TAC 7, B-PLMN 0xf110
+19:13:12.458927 [S1AP] [I] Adding new eNB context. eNB ID 412
+19:13:12.458960 [S1AP] [D] Sending S1 Setup Response
+19:13:12.458975 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 146
+19:13:12.459105 [S1AP] [D] S1 Setup Response sent
+19:13:12.459128 [S1AP] [I] Sending S1 Setup Response
+19:13:12.459132 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:16.194423 [S1AP] [I] Received S1AP msg. Size: 87
+19:14:16.194470 [S1AP] [I] Received Initiating PDU
+19:14:16.194475 [S1AP] [I] Received Initial UE Message.
+19:14:16.194538 [S1AP] [I] Initial UE message: LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST
+19:14:16.194558 [S1AP] [I] Received Initial UE message -- Attach Request
+19:14:16.194578 [S1AP] [D] Could not find IMSI from M-TMSI 0x4962bf0
+19:14:16.194595 [NAS ] [I] Attach request -- M-TMSI: 0x4962bf0
+19:14:16.194610 [NAS ] [I] Attach request -- eNB-UE S1AP Id: 1
+19:14:16.194623 [NAS ] [I] Attach request -- Attach type: 1
+19:14:16.194637 [NAS ] [I] Attach Request -- UE Network Capabilities EEA: 11110000
+19:14:16.194650 [NAS ] [I] Attach Request -- UE Network Capabilities EIA: 01110000
+19:14:16.194660 [NAS ] [I] Attach Request -- MS Network Capabilities Present: false
+19:14:16.194669 [NAS ] [I] PDN Connectivity Request -- EPS Bearer Identity requested: 0
+19:14:16.194681 [NAS ] [I] PDN Connectivity Request -- Procedure Transaction Id: 1
+19:14:16.194692 [NAS ] [I] PDN Connectivity Request -- ESM Information Transfer requested: false
+19:14:16.194706 [NAS ] [D] NAS Context Initialized. MCC: 0xf001, MNC 0xff01
+19:14:16.194711 [S1AP] [D] Saved UE context corresponding to MME UE S1AP Id 2
+19:14:16.194723 [S1AP] [D] Added UE with MME-UE S1AP Id 2 to eNB with association 146
+19:14:16.194728 [NAS ] [I] Packing Identity Request
+19:14:16.194753 [S1AP] [D] Sending message to eNB with SCTP association 146. MME UE S1AP ID 2, eNB UE S1AP ID 1
+19:14:16.194808 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 146
+19:14:16.194921 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:16.211240 [S1AP] [I] Received S1AP msg. Size: 57
+19:14:16.211281 [S1AP] [I] Received Initiating PDU
+19:14:16.211284 [S1AP] [I] Received Uplink NAS Transport Message.
+19:14:16.211289 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 2
+19:14:16.211299 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_PLAIN_NAS, mac_vaild: no, msg_encrypted: no
+19:14:16.211304 [S1AP] [I] UL NAS: Received Identity Response
+19:14:16.211354 [NAS ] [I] ID response -- IMSI: 001010123456790
+19:14:16.211367 [HSS ] [D] Generating AUTH info answer
+19:14:16.211374 [HSS ] [I] User not found. IMSI: 001010123456790
+19:14:16.211382 [HSS ] [E] User not found at HSS. IMSI: 001010123456790
+19:14:16.211394 [NAS ] [I] User not found. IMSI 001010123456790
+19:14:16.211403 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:31.186611 [S1AP] [I] Received S1AP msg. Size: 78
+19:14:31.186640 [S1AP] [I] Received Initiating PDU
+19:14:31.186644 [S1AP] [I] Received Uplink NAS Transport Message.
+19:14:31.186648 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 2
+19:14:31.186727 [NAS ] [W] Integrity check failure. Algorithm=EIA1
+19:14:31.186733 [NAS ] [W] UL Local: est_count=6, old_count=1, MAC=[76 eb b2 43], Received: UL count=6, MAC=[27 44 e9 b9]
+19:14:31.186735 [S1AP] [W] Invalid MAC message. Even if security header indicates integrity protection (Maybe: Identity Response or Authentication Response)
+19:14:31.186737 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_INTEGRITY, mac_vaild: no, msg_encrypted: no
+19:14:31.186740 [S1AP] [I] UL NAS: Attach Request
+19:14:31.186837 [S1AP] [D] Could not find IMSI from M-TMSI 0x4962bf0
+19:14:31.186845 [NAS ] [I] Attach request -- M-TMSI: 0x4962bf0
+19:14:31.186846 [NAS ] [E] Attach request from known UE
+19:14:31.186850 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:36.273982 [S1AP] [I] Received S1AP msg. Size: 59
+19:14:36.274029 [S1AP] [I] Received Initiating PDU
+19:14:36.274035 [S1AP] [I] Received Initial UE Message.
+19:14:36.274165 [S1AP] [I] Initial UE message: NAS Message Type Unknown
+19:14:36.274200 [S1AP] [I] Received Initial UE message -- Service Request
+19:14:36.274212 [NAS ] [I] Service request -- S-TMSI 0x2922ff3f
+19:14:36.274222 [NAS ] [I] Service request -- eNB UE S1AP Id 2
+19:14:36.274235 [S1AP] [D] Found IMSI 001010123456789 from M-TMSI 0x2922ff3f
+19:14:36.274348 [NAS ] [I] Integrity check ok. Local: count=2, Received: count=2
+19:14:36.274362 [NAS ] [I] Service Request -- Short MAC valid
+19:14:36.274372 [NAS ] [I] Service Request -- User is ECM DISCONNECTED
+19:14:36.274399 [NAS ] [I] Generating KeNB with UL NAS COUNT: 2
+19:14:36.274439 [NAS ] [I] Key eNodeB (k_enb)
+             0000: ad 86 b0 6e 48 92 f4 43 bc 07 36 25 a9 55 75 bd 
+             0010: 4f ce 14 ce 59 9e 13 5b f8 34 f1 f1 2c f1 ea 37 
+19:14:36.274453 [S1AP] [D] Saved UE context corresponding to MME UE S1AP Id 3
+19:14:36.274460 [S1AP] [I] Preparing to send Initial Context Setup request
+19:14:36.274494 [S1AP] [I] Initial Context Setup Request -- Key eNB (k_enb)
+             0000: ad 86 b0 6e 48 92 f4 43 bc 07 36 25 a9 55 75 bd 
+             0010: 4f ce 14 ce 59 9e 13 5b f8 34 f1 f1 2c f1 ea 37 
+19:14:36.274503 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:14:36.274661 [S1AP] [I] Initial Context -- S1-U TEID 0x1. IP 127.0.1.100 
+19:14:36.274676 [S1AP] [I] Initial Context Setup Request -- eNB UE S1AP Id 2, MME UE S1AP Id 3
+19:14:36.274679 [S1AP] [I] Initial Context Setup Request -- E-RAB id 5
+19:14:36.274684 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:14:36.274688 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:14:36.274691 [S1AP] [I] Initial Context Setup Request -- QCI 7
+19:14:36.274699 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:36.329392 [S1AP] [I] Received S1AP msg. Size: 38
+19:14:36.329432 [S1AP] [I] Received Succeseful Outcome PDU
+19:14:36.329438 [S1AP] [I] Received Initial Context Setup Response.
+19:14:36.329470 [S1AP] [I] E-RAB Context Setup. E-RAB id 5
+19:14:36.329475 [S1AP] [I] E-RAB Context -- eNB TEID 0x2, eNB Address 127.0.1.1
+19:14:36.329495 [MME GTPC] [I] Sending GTP-C Modify bearer request
+19:14:36.329507 [MME GTPC] [I] GTP-C Modify bearer request -- S-GW Control TEID 1
+19:14:36.329514 [MME GTPC] [I] GTP-C Modify bearer request -- S1-U TEID 0x2, IP 127.0.1.1
+19:14:36.329518 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:14:36.329548 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:14:36.329552 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:36.329566 [SPGW] [D] Message received at SPGW: S11 Message
+19:14:36.329595 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+19:14:36.329600 [SPGW GTPC] [I] Received Modified Bearer Request
+19:14:36.329603 [SPGW GTPC] [I] Setting Up GTP-U tunnel. Tunnel info: 
+19:14:36.329607 [SPGW GTPC] [I] IMSI: 001010123456789, UE IP: 192.168.0.2 
+19:14:36.329610 [SPGW GTPC] [I] S-GW Rx Ctrl TEID 0x1, MME Rx Ctrl TEID 0x1
+19:14:36.329611 [SPGW GTPC] [I] S-GW Rx Ctrl IP (NA), MME Rx Ctrl IP (NA)
+19:14:36.329613 [SPGW GTPC] [I] S-GW Rx User TEID 0x1, S-GW Rx User IP 127.0.1.100
+19:14:36.329617 [SPGW GTPC] [I] eNB Rx User TEID 0x2, eNB Rx User IP 127.0.1.1
+19:14:36.329620 [GTPU] [I] Modifying GTP-U Tunnel.
+19:14:36.329623 [GTPU] [I] UE IP 192.168.0.2
+19:14:36.329625 [GTPU] [I] Downlink eNB addr 127.0.1.1, U-TEID 0x2
+19:14:36.329627 [GTPU] [I] Uplink C-TEID: 0x1
+19:14:36.329631 [SPGW GTPC] [D] SPGW Sending S11 PDU! N_Bytes: 1360
+19:14:36.329641 [SPGW GTPC] [D] SPGW S11 Sent 1360 Bytes.
+19:14:36.329650 [MME GTPC] [D] Received S11 message
+19:14:36.329652 [MME GTPC] [D] MME Received GTP-C PDU. Message type GTPC_MSG_TYPE_MODIFY_BEARER_RESPONSE
+19:14:36.329656 [MME GTPC] [D] Activating EPS bearer with id 5
+19:14:36.329657 [S1AP] [I] Activated EPS Bearer: Bearer id 5
+19:14:36.329659 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:36.439043 [SPGW] [D] Message received at SPGW: S1-U Message
+19:14:36.439063 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:14:36.439066 [GTPU] [D] TEID 0x1. Bytes=84
+19:14:36.439162 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:14:36.439173 [SPGW] [D] Message received at SPGW: SGi Message
+19:14:36.439181 [GTPU] [D] Received SGi PDU. Bytes 84
+19:14:36.439186 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:14:36.439195 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:14:36.439201 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:14:36.439206 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:14:36.439210 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x2.
+19:14:36.439264 [GTPU] [D] Deallocating packet after sending S1-U message
+19:14:37.231141 [SPGW] [D] Message received at SPGW: S1-U Message
+19:14:37.231156 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:14:37.231178 [GTPU] [D] TEID 0x1. Bytes=84
+19:14:37.231241 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:14:37.231256 [SPGW] [D] Message received at SPGW: SGi Message
+19:14:37.231290 [GTPU] [D] Received SGi PDU. Bytes 84
+19:14:37.231295 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:14:37.231305 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:14:37.231327 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:14:37.231329 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:14:37.231331 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x2.
+19:14:37.231375 [GTPU] [D] Deallocating packet after sending S1-U message
+19:14:45.739748 [S1AP] [I] Received S1AP msg. Size: 78
+19:14:45.739780 [S1AP] [I] Received Initiating PDU
+19:14:45.739785 [S1AP] [I] Received Uplink NAS Transport Message.
+19:14:45.739791 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 2
+19:14:45.739869 [NAS ] [W] Integrity check failure. Algorithm=EIA1
+19:14:45.739874 [NAS ] [W] UL Local: est_count=7, old_count=2, MAC=[df 5c 94 2a], Received: UL count=7, MAC=[09 0d b4 7d]
+19:14:45.739876 [S1AP] [W] Invalid MAC message. Even if security header indicates integrity protection (Maybe: Identity Response or Authentication Response)
+19:14:45.739879 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_INTEGRITY, mac_vaild: no, msg_encrypted: no
+19:14:45.739881 [S1AP] [I] UL NAS: Attach Request
+19:14:45.739926 [S1AP] [D] Could not find IMSI from M-TMSI 0x4962bf0
+19:14:45.739932 [NAS ] [I] Attach request -- M-TMSI: 0x4962bf0
+19:14:45.739933 [NAS ] [E] Attach request from known UE
+19:14:45.739936 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:54.368823 [S1AP] [I] Received S1AP msg. Size: 25
+19:14:54.368852 [S1AP] [I] Received Initiating PDU
+19:14:54.368858 [S1AP] [I] Received UE Context Release Request Message.
+19:14:54.368864 [S1AP] [I] Received UE Context Release Request. MME-UE S1AP Id: 3
+19:14:54.368908 [S1AP] [I] There are active E-RABs, send release access bearers request
+19:14:54.368914 [MME GTPC] [I] Sending GTP-C Release Access Bearers Request
+19:14:54.368920 [MME GTPC] [I] GTP-C Release Access Berarers Request -- S-GW Control TEID 1
+19:14:54.368926 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:14:54.368949 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:14:54.368963 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:14:54.368977 [SPGW] [D] Message received at SPGW: S11 Message
+19:14:54.369018 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+19:14:54.369060 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:14:54.369202 [S1AP] [I] Received S1AP msg. Size: 19
+19:14:54.369226 [S1AP] [I] Received Succeseful Outcome PDU
+19:14:54.369232 [S1AP] [I] Received UE Context Release Complete
+19:14:54.369238 [S1AP] [I] Received UE Context Release Complete. MME-UE S1AP Id: 3
+19:14:54.369255 [S1AP] [I] Released UE ECM Context.
+19:14:54.369266 [S1AP] [I] UE Context Release Completed.
+19:14:54.369275 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:15:00.809079 [S1AP] [I] Received S1AP msg. Size: 78
+19:15:00.809121 [S1AP] [I] Received Initiating PDU
+19:15:00.809137 [S1AP] [I] Received Uplink NAS Transport Message.
+19:15:00.809147 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 2
+19:15:00.809305 [NAS ] [W] Integrity check failure. Algorithm=EIA1
+19:15:00.809313 [NAS ] [W] UL Local: est_count=8, old_count=3, MAC=[74 da bd 30], Received: UL count=8, MAC=[9a 76 b6 1e]
+19:15:00.809321 [S1AP] [W] Invalid MAC message. Even if security header indicates integrity protection (Maybe: Identity Response or Authentication Response)
+19:15:00.809326 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_INTEGRITY, mac_vaild: no, msg_encrypted: no
+19:15:00.809333 [S1AP] [I] UL NAS: Attach Request
+19:15:00.809400 [S1AP] [D] Could not find IMSI from M-TMSI 0x4962bf0
+19:15:00.809418 [NAS ] [I] Attach request -- M-TMSI: 0x4962bf0
+19:15:00.809420 [NAS ] [E] Attach request from known UE
+19:15:00.809424 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:15:15.223704 [S1AP] [I] Received S1AP msg. Size: 78
+19:15:15.223732 [S1AP] [I] Received Initiating PDU
+19:15:15.223735 [S1AP] [I] Received Uplink NAS Transport Message.
+19:15:15.223739 [S1AP] [D] Received uplink NAS and found UE NAS context. MME-UE S1AP id: 2
+19:15:15.223939 [NAS ] [W] Integrity check failure. Algorithm=EIA1
+19:15:15.223948 [NAS ] [W] UL Local: est_count=9, old_count=4, MAC=[6f 13 5d 7c], Received: UL count=9, MAC=[a5 58 75 f3]
+19:15:15.223950 [S1AP] [W] Invalid MAC message. Even if security header indicates integrity protection (Maybe: Identity Response or Authentication Response)
+19:15:15.223953 [S1AP] [I] UL NAS: sec_hdr_type: LIBLTE_MME_SECURITY_HDR_TYPE_INTEGRITY, mac_vaild: no, msg_encrypted: no
+19:15:15.223974 [S1AP] [I] UL NAS: Attach Request
+19:15:15.224008 [S1AP] [D] Could not find IMSI from M-TMSI 0x4962bf0
+19:15:15.224018 [NAS ] [I] Attach request -- M-TMSI: 0x4962bf0
+19:15:15.224020 [NAS ] [E] Attach request from known UE
+19:15:15.224023 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:15:31.255142 [S1AP] [I] Received S1AP msg. Size: 25
+19:15:31.255168 [S1AP] [I] Received Initiating PDU
+19:15:31.255173 [S1AP] [I] Received UE Context Release Request Message.
+19:15:31.255179 [S1AP] [I] Received UE Context Release Request. MME-UE S1AP Id: 2
+19:15:31.255215 [S1AP] [I] UE is not ECM connected. No need to release S1-U. MME UE S1AP Id 2
+19:15:31.255218 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:16:10.826906 [S1AP] [I] Received S1AP msg. Size: 59
+19:16:10.826935 [S1AP] [I] Received Initiating PDU
+19:16:10.826940 [S1AP] [I] Received Initial UE Message.
+19:16:10.826968 [S1AP] [I] Initial UE message: NAS Message Type Unknown
+19:16:10.827038 [S1AP] [I] Received Initial UE message -- Service Request
+19:16:10.827044 [NAS ] [I] Service request -- S-TMSI 0x2922ff3f
+19:16:10.827050 [NAS ] [I] Service request -- eNB UE S1AP Id 3
+19:16:10.827058 [S1AP] [D] Found IMSI 001010123456789 from M-TMSI 0x2922ff3f
+19:16:10.827132 [NAS ] [I] Integrity check ok. Local: count=3, Received: count=3
+19:16:10.827140 [NAS ] [I] Service Request -- Short MAC valid
+19:16:10.827144 [NAS ] [I] Service Request -- User is ECM DISCONNECTED
+19:16:10.827162 [NAS ] [I] Generating KeNB with UL NAS COUNT: 3
+19:16:10.827178 [NAS ] [I] Key eNodeB (k_enb)
+             0000: d3 4e 7b c5 e6 27 5d bf aa 54 62 29 dd 13 52 be 
+             0010: c5 7a 45 b7 9e 48 c3 f2 8d fa ac bb 44 6b 01 7c 
+19:16:10.827186 [S1AP] [D] Saved UE context corresponding to MME UE S1AP Id 4
+19:16:10.827190 [S1AP] [I] Preparing to send Initial Context Setup request
+19:16:10.827210 [S1AP] [I] Initial Context Setup Request -- Key eNB (k_enb)
+             0000: d3 4e 7b c5 e6 27 5d bf aa 54 62 29 dd 13 52 be 
+             0010: c5 7a 45 b7 9e 48 c3 f2 8d fa ac bb 44 6b 01 7c 
+19:16:10.827216 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:16:10.827299 [S1AP] [I] Initial Context -- S1-U TEID 0x1. IP 127.0.1.100 
+19:16:10.827305 [S1AP] [I] Initial Context Setup Request -- eNB UE S1AP Id 3, MME UE S1AP Id 4
+19:16:10.827306 [S1AP] [I] Initial Context Setup Request -- E-RAB id 5
+19:16:10.827308 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:16:10.827310 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:16:10.827324 [S1AP] [I] Initial Context Setup Request -- QCI 7
+19:16:10.827328 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:16:10.845433 [S1AP] [I] Received S1AP msg. Size: 38
+19:16:10.845469 [S1AP] [I] Received Succeseful Outcome PDU
+19:16:10.845472 [S1AP] [I] Received Initial Context Setup Response.
+19:16:10.845495 [S1AP] [I] E-RAB Context Setup. E-RAB id 5
+19:16:10.845499 [S1AP] [I] E-RAB Context -- eNB TEID 0x3, eNB Address 127.0.1.1
+19:16:10.845543 [MME GTPC] [I] Sending GTP-C Modify bearer request
+19:16:10.845550 [MME GTPC] [I] GTP-C Modify bearer request -- S-GW Control TEID 1
+19:16:10.845552 [MME GTPC] [I] GTP-C Modify bearer request -- S1-U TEID 0x3, IP 127.0.1.1
+19:16:10.845554 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:16:10.845567 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:16:10.845570 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:16:10.845582 [SPGW] [D] Message received at SPGW: S11 Message
+19:16:10.845604 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+19:16:10.845609 [SPGW GTPC] [I] Received Modified Bearer Request
+19:16:10.845612 [SPGW GTPC] [I] Setting Up GTP-U tunnel. Tunnel info: 
+19:16:10.845614 [SPGW GTPC] [I] IMSI: 001010123456789, UE IP: 192.168.0.2 
+19:16:10.845616 [SPGW GTPC] [I] S-GW Rx Ctrl TEID 0x1, MME Rx Ctrl TEID 0x1
+19:16:10.845618 [SPGW GTPC] [I] S-GW Rx Ctrl IP (NA), MME Rx Ctrl IP (NA)
+19:16:10.845622 [SPGW GTPC] [I] S-GW Rx User TEID 0x1, S-GW Rx User IP 127.0.1.100
+19:16:10.845623 [SPGW GTPC] [I] eNB Rx User TEID 0x3, eNB Rx User IP 127.0.1.1
+19:16:10.845626 [GTPU] [I] Modifying GTP-U Tunnel.
+19:16:10.845632 [GTPU] [I] UE IP 192.168.0.2
+19:16:10.845634 [GTPU] [I] Downlink eNB addr 127.0.1.1, U-TEID 0x3
+19:16:10.845636 [GTPU] [I] Uplink C-TEID: 0x1
+19:16:10.845656 [SPGW GTPC] [D] SPGW Sending S11 PDU! N_Bytes: 1360
+19:16:10.845664 [SPGW GTPC] [D] SPGW S11 Sent 1360 Bytes.
+19:16:10.845673 [MME GTPC] [D] Received S11 message
+19:16:10.845677 [MME GTPC] [D] MME Received GTP-C PDU. Message type GTPC_MSG_TYPE_MODIFY_BEARER_RESPONSE
+19:16:10.845679 [MME GTPC] [D] Activating EPS bearer with id 5
+19:16:10.845681 [S1AP] [I] Activated EPS Bearer: Bearer id 5
+19:16:10.845682 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:16:10.903730 [SPGW] [D] Message received at SPGW: S1-U Message
+19:16:10.903743 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:16:10.903745 [GTPU] [D] TEID 0x1. Bytes=84
+19:16:10.903814 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:16:10.903821 [SPGW] [D] Message received at SPGW: SGi Message
+19:16:10.903826 [GTPU] [D] Received SGi PDU. Bytes 84
+19:16:10.903829 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:16:10.903846 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:16:10.903848 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:16:10.903861 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:16:10.903863 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x3.
+19:16:10.903897 [GTPU] [D] Deallocating packet after sending S1-U message
+19:16:11.804100 [SPGW] [D] Message received at SPGW: S1-U Message
+19:16:11.804119 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:16:11.804123 [GTPU] [D] TEID 0x1. Bytes=84
+19:16:11.804190 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:16:11.804203 [SPGW] [D] Message received at SPGW: SGi Message
+19:16:11.804211 [GTPU] [D] Received SGi PDU. Bytes 84
+19:16:11.804215 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:16:11.804222 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:16:11.804226 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:16:11.804234 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:16:11.804238 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x3.
+19:16:11.804289 [GTPU] [D] Deallocating packet after sending S1-U message
+19:16:28.903755 [S1AP] [I] Received S1AP msg. Size: 25
+19:16:28.903785 [S1AP] [I] Received Initiating PDU
+19:16:28.903807 [S1AP] [I] Received UE Context Release Request Message.
+19:16:28.903813 [S1AP] [I] Received UE Context Release Request. MME-UE S1AP Id: 4
+19:16:28.903857 [S1AP] [I] There are active E-RABs, send release access bearers request
+19:16:28.903866 [MME GTPC] [I] Sending GTP-C Release Access Bearers Request
+19:16:28.903869 [MME GTPC] [I] GTP-C Release Access Berarers Request -- S-GW Control TEID 1
+19:16:28.903874 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:16:28.903895 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:16:28.903912 [SPGW] [D] Message received at SPGW: S11 Message
+19:16:28.903913 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:16:28.903938 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+19:16:28.904027 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:16:28.904295 [S1AP] [I] Received S1AP msg. Size: 19
+19:16:28.904345 [S1AP] [I] Received Succeseful Outcome PDU
+19:16:28.904354 [S1AP] [I] Received UE Context Release Complete
+19:16:28.904359 [S1AP] [I] Received UE Context Release Complete. MME-UE S1AP Id: 4
+19:16:28.904381 [S1AP] [I] Released UE ECM Context.
+19:16:28.904388 [S1AP] [I] UE Context Release Completed.
+19:16:28.904396 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:16:58.366273 [SPGW] [D] Message received at SPGW: SGi Message
+19:16:58.366298 [GTPU] [D] Received SGi PDU. Bytes 48
+19:16:58.366318 [GTPU] [W] IPv6 not supported yet.
+19:22:51.693292 [S1AP] [I] Received S1AP msg. Size: 59
+19:22:51.693337 [S1AP] [I] Received Initiating PDU
+19:22:51.693348 [S1AP] [I] Received Initial UE Message.
+19:22:51.693381 [S1AP] [I] Initial UE message: NAS Message Type Unknown
+19:22:51.693392 [S1AP] [I] Received Initial UE message -- Service Request
+19:22:51.693398 [NAS ] [I] Service request -- S-TMSI 0x2922ff3f
+19:22:51.693409 [NAS ] [I] Service request -- eNB UE S1AP Id 4
+19:22:51.693422 [S1AP] [D] Found IMSI 001010123456789 from M-TMSI 0x2922ff3f
+19:22:51.693565 [NAS ] [I] Integrity check ok. Local: count=4, Received: count=4
+19:22:51.693574 [NAS ] [I] Service Request -- Short MAC valid
+19:22:51.693733 [NAS ] [I] Service Request -- User is ECM DISCONNECTED
+19:22:51.693762 [NAS ] [I] Generating KeNB with UL NAS COUNT: 4
+19:22:51.693793 [NAS ] [I] Key eNodeB (k_enb)
+             0000: d6 8a a7 a9 51 44 6d c7 d6 0c 28 61 bf 8a 6d d9 
+             0010: 67 79 4c e4 37 5e bb 5a 0f 7e d5 c9 44 f6 da a5 
+19:22:51.693807 [S1AP] [D] Saved UE context corresponding to MME UE S1AP Id 5
+19:22:51.693817 [S1AP] [I] Preparing to send Initial Context Setup request
+19:22:51.693848 [S1AP] [I] Initial Context Setup Request -- Key eNB (k_enb)
+             0000: d6 8a a7 a9 51 44 6d c7 d6 0c 28 61 bf 8a 6d d9 
+             0010: 67 79 4c e4 37 5e bb 5a 0f 7e d5 c9 44 f6 da a5 
+19:22:51.693855 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:22:51.694080 [S1AP] [I] Initial Context -- S1-U TEID 0x1. IP 127.0.1.100 
+19:22:51.694087 [S1AP] [I] Initial Context Setup Request -- eNB UE S1AP Id 4, MME UE S1AP Id 5
+19:22:51.694089 [S1AP] [I] Initial Context Setup Request -- E-RAB id 5
+19:22:51.694097 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:22:51.694100 [S1AP] [I] Initial Context Setup Request -- S1-U TEID 0x1. IP 127.0.1.100 
+19:22:51.694105 [S1AP] [I] Initial Context Setup Request -- QCI 7
+19:22:51.694112 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:22:51.713934 [S1AP] [I] Received S1AP msg. Size: 38
+19:22:51.713975 [S1AP] [I] Received Succeseful Outcome PDU
+19:22:51.713982 [S1AP] [I] Received Initial Context Setup Response.
+19:22:51.714119 [S1AP] [I] E-RAB Context Setup. E-RAB id 5
+19:22:51.714127 [S1AP] [I] E-RAB Context -- eNB TEID 0x4, eNB Address 127.0.1.1
+19:22:51.714148 [MME GTPC] [I] Sending GTP-C Modify bearer request
+19:22:51.714157 [MME GTPC] [I] GTP-C Modify bearer request -- S-GW Control TEID 1
+19:22:51.714162 [MME GTPC] [I] GTP-C Modify bearer request -- S1-U TEID 0x4, IP 127.0.1.1
+19:22:51.714182 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:22:51.714211 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:22:51.714227 [SPGW] [D] Message received at SPGW: S11 Message
+19:22:51.714234 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:22:51.714255 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+19:22:51.714261 [SPGW GTPC] [I] Received Modified Bearer Request
+19:22:51.714263 [SPGW GTPC] [I] Setting Up GTP-U tunnel. Tunnel info: 
+19:22:51.714267 [SPGW GTPC] [I] IMSI: 001010123456789, UE IP: 192.168.0.2 
+19:22:51.714268 [SPGW GTPC] [I] S-GW Rx Ctrl TEID 0x1, MME Rx Ctrl TEID 0x1
+19:22:51.714269 [SPGW GTPC] [I] S-GW Rx Ctrl IP (NA), MME Rx Ctrl IP (NA)
+19:22:51.714273 [SPGW GTPC] [I] S-GW Rx User TEID 0x1, S-GW Rx User IP 127.0.1.100
+19:22:51.714277 [SPGW GTPC] [I] eNB Rx User TEID 0x4, eNB Rx User IP 127.0.1.1
+19:22:51.714279 [GTPU] [I] Modifying GTP-U Tunnel.
+19:22:51.714282 [GTPU] [I] UE IP 192.168.0.2
+19:22:51.714287 [GTPU] [I] Downlink eNB addr 127.0.1.1, U-TEID 0x4
+19:22:51.714289 [GTPU] [I] Uplink C-TEID: 0x1
+19:22:51.714292 [SPGW GTPC] [D] SPGW Sending S11 PDU! N_Bytes: 1360
+19:22:51.714302 [SPGW GTPC] [D] SPGW S11 Sent 1360 Bytes.
+19:22:51.714319 [MME GTPC] [D] Received S11 message
+19:22:51.714325 [MME GTPC] [D] MME Received GTP-C PDU. Message type GTPC_MSG_TYPE_MODIFY_BEARER_RESPONSE
+19:22:51.714331 [MME GTPC] [D] Activating EPS bearer with id 5
+19:22:51.714335 [S1AP] [I] Activated EPS Bearer: Bearer id 5
+19:22:51.714340 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:22:51.759840 [SPGW] [D] Message received at SPGW: S1-U Message
+19:22:51.759855 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:22:51.759857 [GTPU] [D] TEID 0x1. Bytes=84
+19:22:51.759930 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:22:51.759935 [SPGW] [D] Message received at SPGW: SGi Message
+19:22:51.759941 [GTPU] [D] Received SGi PDU. Bytes 84
+19:22:51.759942 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:22:51.759949 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:22:51.759952 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:22:51.759954 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:22:51.759956 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x4.
+19:22:51.759991 [GTPU] [D] Deallocating packet after sending S1-U message
+19:22:52.655563 [SPGW] [D] Message received at SPGW: S1-U Message
+19:22:52.655586 [GTPU] [D] Received PDU from S1-U. Bytes=84
+19:22:52.655604 [GTPU] [D] TEID 0x1. Bytes=84
+19:22:52.655671 [GTPU] [D] Forwarded packet to TUN interface. Bytes= 84/84
+19:22:52.655679 [SPGW] [D] Message received at SPGW: SGi Message
+19:22:52.655685 [GTPU] [D] Received SGi PDU. Bytes 84
+19:22:52.655687 [GTPU] [D] SGi PDU -- IP version 4, Total length 84
+19:22:52.655689 [GTPU] [D] SGi PDU -- IP src addr 192.168.0.1
+19:22:52.655691 [GTPU] [D] SGi PDU -- IP dst addr 192.168.0.2
+19:22:52.655693 [GTPU] [D] User plane tunnel found SGi PDU. Forwarding packet to S1-U.
+19:22:52.655696 [GTPU] [D] eNB F-TEID -- eNB IP 127.0.1.1, eNB TEID 0x4.
+19:22:52.655737 [GTPU] [D] Deallocating packet after sending S1-U message
+19:23:07.132187 [S1AP] [I] Received S1AP msg. Size: 25
+19:23:07.132225 [S1AP] [I] Received Initiating PDU
+19:23:07.132229 [S1AP] [I] Received UE Context Release Request Message.
+19:23:07.132235 [S1AP] [I] Received UE Context Release Request. MME-UE S1AP Id: 5
+19:23:07.132294 [S1AP] [I] There are active E-RABs, send release access bearers request
+19:23:07.132304 [MME GTPC] [I] Sending GTP-C Release Access Bearers Request
+19:23:07.132309 [MME GTPC] [I] GTP-C Release Access Berarers Request -- S-GW Control TEID 1
+19:23:07.132321 [MME GTPC] [D] Sending S-11 GTP-C PDU
+19:23:07.132352 [MME GTPC] [D] MME S11 Sent 1360 Bytes.
+19:23:07.132375 [SPGW] [D] Message received at SPGW: S11 Message
+19:23:07.132378 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 142
+19:23:07.132403 [SPGW GTPC] [D] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+19:23:07.132552 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:23:07.132686 [S1AP] [I] Received S1AP msg. Size: 19
+19:23:07.132724 [S1AP] [I] Received Succeseful Outcome PDU
+19:23:07.132732 [S1AP] [I] Received UE Context Release Complete
+19:23:07.132738 [S1AP] [I] Received UE Context Release Complete. MME-UE S1AP Id: 5
+19:23:07.132761 [S1AP] [I] Released UE ECM Context.
+19:23:07.132768 [S1AP] [I] UE Context Release Completed.
+19:23:07.132782 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:24:53.502292 [SPGW] [D] Message received at SPGW: SGi Message
+19:24:53.502321 [GTPU] [D] Received SGi PDU. Bytes 48
+19:24:53.502326 [GTPU] [W] IPv6 not supported yet.
+19:25:23.608860 [S1AP] [I] Received S1AP msg. Size: 45
+19:25:23.608904 [S1AP] [I] Received Initiating PDU
+19:25:23.608915 [S1AP] [I] Received S1 Setup Request.
+19:25:23.608972 [S1AP] [I] Received S1 Setup Request.
+19:25:23.608982 [S1AP] [D] eNB SCTP association Id: 150
+19:25:23.608992 [S1AP] [I] S1 Setup Request - eNB Name: enb3, eNB id: 0x19e
+19:25:23.608999 [S1AP] [I] S1 Setup Request - MCC:001, MNC:01, PLMN: 61712
+19:25:23.609007 [S1AP] [I] S1 Setup Request - TAC 7, B-PLMN 0xf110
+19:25:23.609022 [S1AP] [I] Adding new eNB context. eNB ID 414
+19:25:23.609064 [S1AP] [D] Sending S1 Setup Response
+19:25:23.609077 [S1AP] [D] Transmitting S1AP PDU. eNB SCTP association Id: 150
+19:25:23.609214 [S1AP] [D] S1 Setup Response sent
+19:25:23.609242 [S1AP] [I] Sending S1 Setup Response
+19:25:23.609246 [S1AP] [D] Waiting for S1-MME or S11 Message
+19:25:47.091251 [S1AP] [I] Received S
