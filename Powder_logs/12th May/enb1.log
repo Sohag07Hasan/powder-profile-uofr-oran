@@ -1,0 +1,27 @@
+15:43:17.329913 [ENB ] [I] Using binary /local/setup/srslte-ric/build/srsenb/src/srsenb with arguments: --enb.n_prb=15 --enb.name=enb1 --enb.enb_id=0x19B --rf.device_name=zmq --rf.device_args=fail_on_disconnect=true,id=enb1,base_srate=23.04e6,tx_port=tcp://*:2000,rx_port=tcp://localhost:2001 --ric.agent.remote_ipv4_addr=10.106.131.71 --ric.agent.local_ipv4_addr=10.10.1.1 --ric.agent.local_port=52525 --log.all_level=warn --ric.agent.log_level=debug --log.filename=/tmp/enb1.log --slicer.enable=1 --slicer.workshare=0 --pcap.enable=true --pcap.filename=/tmp/enb1.pcap --pcap.s1ap_enable=true --pcap.s1ap_filename=/tmp/enb_1_s1ap.pcap 
+15:43:17.449966 [ENB ] [I] Built in RelWithDebInfo mode using commit ff8d1cc97 on branch oran-ric.
+15:43:17.451680 [ENB ] [I] Using sync queue size of one for ZMQ based radio.
+15:43:18.576493 [RIC ] [D] log_level = debug
+15:43:18.576553 [E2SM] [I] kpm: building function list
+15:43:18.582160 [RIC ] [I] added model ORAN-E2SM-KPM
+15:43:18.582204 [E2SM] [I] nexran: building function list
+15:43:18.586516 [RIC ] [I] added model ORAN-E2SM-NEXRAN
+15:43:18.586545 [E2SM] [I] zylinium: building function list
+15:43:18.590966 [RIC ] [I] added model ORAN-E2SM-ZYLINIUM
+15:43:18.591020 [RIC ] [I] added model ORAN-E2SM-gNB-NRT
+15:43:18.591044 [RIC ] [D] model ORAN-E2SM-KPM function ORAN-E2SM-KPM (function_id 0) enabled and registered
+15:43:18.591064 [RIC ] [D] model ORAN-E2SM-NEXRAN function ORAN-E2SM-NEXRAN (function_id 1) enabled and registered
+15:43:18.591080 [RIC ] [D] model ORAN-E2SM-ZYLINIUM function ORAN-E2SM-ZYLINIUM (function_id 2) enabled and registered
+15:43:18.591100 [RIC ] [D] model ORAN-E2SM-gNB-NRT function ORAN-E2SM-gNB-NRT (function_id 3) enabled and registered
+15:43:18.591116 [RIC ] [D] RIC state -> INITIALIZED
+15:43:18.596873 [E2SM] [D] zylinium: waiting until next schedule change (now 1715442198.591833)
+15:43:18.601554 [E2SM] [D] rbgmask binary 0000000000000000000000000
+15:43:18.601597 [E2SM] [D] prbmask binary 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+15:43:18.614422 [RIC ] [D] RIC state -> CONNECTED
+15:43:18.614440 [RIC ] [I] connected to RIC on 10.106.131.71
+15:43:18.621142 [RIC ] [I] sent E2setupRequest to RIC
+15:43:18.621148 [RIC ] [D] waiting for E2setupResponse...
+15:43:18.645639 [E2AP] [I] decoded successful outcome E2SetupResponse (1)
+15:43:18.645706 [E2AP] [I] Received E2SetupResponse
+15:43:18.645709 [E2AP] [I] E2SetupResponse from RIC (mcc=318,mnc=109,id=699598)
+15:43:18.645713 [RIC ] [D] RIC state -> ESTABLISHED
