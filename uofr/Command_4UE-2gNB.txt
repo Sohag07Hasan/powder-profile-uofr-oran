@@ -1,0 +1,56 @@
+
+2 GNB and 4 UE
+gNB 1
+sudo /local/setup/srslte-ric/build/srsenb/src/srsenb /etc/srslte/enb1.conf \
+	--rf.device_name=zmq \
+	--rf.device_args="fail_on_disconnect=true,id=enb1,base_srate=23.04e6,tx_port=tcp://*:2000,rx_port=tcp://localhost:2009" \
+    --ric.agent.remote_ipv4_addr=${E2TERM_SCTP} \
+    --ric.agent.local_ipv4_addr=10.10.1.1 --ric.agent.local_port=52525 \
+    --log.all_level=warn --ric.agent.log_level=debug --log.filename=stdout
+	
+gNB 2
+sudo /local/setup/srslte-ric/build/srsenb/src/srsenb /etc/srslte/enb2.conf \
+	--rf.device_name=zmq \
+    --rf.device_args="fail_on_disconnect=true,id=enb,base_srate=23.04e6,tx_port=tcp://*:3000,rx_port=tcp://localhost:3009" \
+    --ric.agent.remote_ipv4_addr=${E2TERM_SCTP} \
+    --ric.agent.local_ipv4_addr=10.20.1.1 --ric.agent.local_port=52525 \
+    --log.all_level=warn --ric.agent.log_level=debug --log.filename=stdout
+	
+	
+Ue1
+sudo ip netns add ue1
+sudo /local/setup/srslte-ric/build/srsue/src/srsue \
+	--rf.device_name=zmq --rf.device_args="tx_port=tcp://*:2010,rx_port=tcp://localhost:2008,id=ue,base_srate=23.04e6" \
+    --usim.imsi=001010123456780 --usim.imei=353490069873310 \
+    --log.all_level=warn --log.filename='/tmp/logs/ue1' --gw.netns=ue1 \
+	--pcap.enable=true --pcap.filename='/tmp/ue1.pcap' --pcap.nas_enable=true --pcap.nas_filename='/tmp/ue_1_nas.pcap' \
+	--general.metrics_csv_enable=true --general.metrics_period_secs=1 --general.metrics_csv_filename='/tmp/ue1_metrics.csv'
+
+
+Ue2
+sudo ip netns add ue2
+sudo /local/setup/srslte-ric/build/srsue/src/srsue \
+    --rf.device_name=zmq --rf.device_args="tx_port=tcp://*:2007,rx_port=tcp://localhost:2006,id=ue,base_srate=23.04e6" \
+	--usim.imsi=001010123456781 --usim.imei=353490069873311 \
+    --log.all_level=warn --log.filename='/tmp/logs/ue2' --gw.netns=ue2 \
+	--pcap.enable=true --pcap.filename='/tmp/ue2.pcap' --pcap.nas_enable=true --pcap.nas_filename='/tmp/ue2_nas.pcap' \
+	--general.metrics_csv_enable=true --general.metrics_period_secs=1 --general.metrics_csv_filename='/tmp/ue2_metrics.csv'
+
+Ue3
+sudo ip netns add ue3
+sudo /local/setup/srslte-ric/build/srsue/src/srsue \
+	--rf.device_name=zmq --rf.device_args="tx_port=tcp://*:3010,rx_port=tcp://localhost:3008,id=ue,base_srate=23.04e6" \
+    --usim.imsi=001010123456782 --usim.imei=353490069873312 \
+    --log.all_level=warn --log.filename='/tmp/logs/ue3' --gw.netns=ue3 \
+	--pcap.enable=true --pcap.filename='/tmp/ue3.pcap' --pcap.nas_enable=true --pcap.nas_filename='/tmp/ue3_nas.pcap' \
+	--general.metrics_csv_enable=true --general.metrics_period_secs=1 --general.metrics_csv_filename='/tmp/ue3_metrics.csv'
+
+
+Ue4
+sudo ip netns add ue4
+sudo /local/setup/srslte-ric/build/srsue/src/srsue \
+    --rf.device_name=zmq --rf.device_args="tx_port=tcp://*:3007,rx_port=tcp://localhost:3006,id=ue,base_srate=23.04e6" \
+    --usim.imsi=001010123456783 --usim.imei=353490069873313 \
+    --log.all_level=warn --log.filename='/tmp/logs/ue4' --gw.netns=ue4 \
+	--pcap.enable=true --pcap.filename='/tmp/ue4.pcap' --pcap.nas_enable=true --pcap.nas_filename='/tmp/ue4_nas.pcap' \
+	--general.metrics_csv_enable=true --general.metrics_period_secs=1 --general.metrics_csv_filename='/tmp/ue4_metrics.csv'
