@@ -18,7 +18,7 @@ cd $SRC
 
 # Creating 2 dummy interface for 2 gNB 
 # these interfaces will be used at E2 termination for the gNB
-. $SRC/uofr/dummy_interfaces.sh
+. $SRC/uofr/create_dummy_interfaces.sh
 
 #update the config files at open5GS and SRSLTE
 . $SRC/uofr/configure_tb.sh

@@ -2,7 +2,7 @@
 
 #Import the public key used by the package management system.
 sudo apt update
-sudo apt install gnupg
+sudo apt install -y gnupg
 curl -fsSL https://pgp.mongodb.com/server-6.0.asc | sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg --dearmor
 
 #Create the list file /etc/apt/sources.list.d/mongodb-org-6.0.list for your version of Ubuntu.
@@ -17,7 +17,7 @@ sudo systemctl enable mongod #(ensure to automatically start it on system boot)
 #Ubuntu makes it easy to install Open5GS as shown below
 sudo add-apt-repository ppa:open5gs/latest
 sudo apt update
-sudo apt install open5gs
+sudo apt install -y open5gs
 
 #Install the WebUI of Open5GS
 #Debian and Ubuntu based Linux distributions can install Node.js as follows:
