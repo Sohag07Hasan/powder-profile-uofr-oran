@@ -9,7 +9,7 @@ export SRC=`dirname $0`
 cd $SRC
 . $SRC/setup-lib.sh
 
-ALLNODESCRIPTS="setup-ssh.sh setup-disk-space.sh"
+ALLNODESCRIPTS="setup-ssh.sh setup-disk-space.sh setup_uofr_tb.sh"
 HEADNODESCRIPTS=""
 if [ $INSTALLVNC -eq 1 ]; then
     HEADNODESCRIPTS="setup-vnc.sh"
