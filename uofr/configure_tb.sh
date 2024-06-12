@@ -18,4 +18,12 @@ sudo cp $SRC/uofr/etc_srslte/user_db.csv $srsLTE #for the time being it is not i
 
 #Copy configuration file of open5GS
 sudo cp $open5GS/mme.yaml $open5GS/mme.yaml.bkp ##Keeping a backup
-sudo cp $SRC/uofr/tc_open5gs/mme.yaml $open5GS #replace the mme config
+sudo cp $SRC/uofr/etc_open5gs/mme.yaml $open5GS #replace the mme config
+
+#restart the mme to reflect the configurations
+#https://docs.srsran.com/projects/4g/en/next/app_notes/source/handover/source/index.html
+#https://open5gs.org/open5gs/docs/guide/01-quickstart/
+sudo systemctl restart open5gs-mmed
+
+##starting the gnb and ue
+#check document /uofr/Command_4UE-2gNB.txt
